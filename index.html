@@ -1,20 +1,15 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<!-- CHAMA -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="../../gmpg.org/xfn/11.html">
-	<meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&amp;display=swap" rel="stylesheet">
-    <title>Software do Tiger - Versão 3.0</title>
-
+    <title>Software do Dragon</title>
 <style>
 *{
     margin: 0;
@@ -24,26 +19,19 @@
     font-family: 'Exo 2', sans-serif;
 }
 
-html, body {
+body {
     background: #29292C;
-    background-image: url(https://tiger.minutosquepagam.com/wp-content/uploads/2024/02/Design-sem-nome-1.png);
-    background-position: top center;
+    background-image: url(background.png);
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
-@media (max-width: 768px){
-    body{
-        background-image: url(https://tiger.minutosquepagam.com/wp-content/uploads/2024/02/Design-sem-nome-1.png);
-        background-position: top center;
-        background-repeat: no-repeat;
-    }
-}
+
 
 p{
     margin: 0;
 }
 
-/*Scroll Bar*/
 ::-webkit-scrollbar{
     width: 7px;
     background-color: #303030;
@@ -53,7 +41,6 @@ p{
     background-color: #CF5908;
 }
 
-/*Tigrinho*/
 .box{
     position: relative;
     max-width: 300px;
@@ -86,10 +73,10 @@ p{
     height: 48px;
     padding: 20px;
     border-radius: 10px;
-    background: linear-gradient(to right, hsl(2, 50%, 50%), #ff000b, #ff000b, #ff000b, #ff000b);
+    background: linear-gradient(to right, hsl(2, 50%, 50%), #CB6CE6, #C700FF, #C700FF);
     gap: 3px;
     align-items: center;
-    border: 1px solid #ff5a5a;
+    border: 1px solid #CB6CE6;
 }
 
 .box-item #validate, .box-item #turbo, .box-item #normal, .box-item #level {
@@ -130,7 +117,6 @@ p{
     animation: animatedText 20s linear infinite;
 }
 
-/*Botão*/
 @keyframes animatedText {
     100% {
         left: -150%;
@@ -138,35 +124,35 @@ p{
 }
 
 @keyframes pulse {
-  0% {
+0% {
     transform: scale(1);
-  }
-  50% {
+}
+50% {
     transform: scale(1.05);
-  }
-  100% {
+}
+100% {
     transform: scale(1);
-  }
+}
 }
 
 #btn {
-  width: 100%;
-  padding: 8px 0;
-  color: white;
-  background: linear-gradient(45deg, #34c620, #29f513);
-  outline: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-weight: bold;
-  animation: pulse 1.5s infinite;
-  border: 1px solid #53ff7b;
-  font-size: 15px;
-
+width: 100%;
+padding: 8px 0;
+color: white;
+background: linear-gradient(45deg, #34c620, #29f513);
+outline: none;
+border-radius: 10px;
+cursor: pointer;
+font-weight: bold;
+animation: pulse 1.5s infinite;
+border: 1px solid #53ff7b;
+font-size: 15px;
 }
 
+
 #btn:active {
-  animation: none;
-  transform: scale(0.95);
+animation: none;
+transform: scale(0.95);
 }
 
 
@@ -178,12 +164,10 @@ p{
     border: 0px;
 }
 
-/*Iframe afiliado*/
 #iframe {
     border-radius: 15px; 
-	align-items: center;
-	align-content: center;
-	/*margin-left: calc(50% - 200px);*/
+    align-items: center;
+    align-content: center;
     margin-bottom: 1em;
     margin-left: calc(50% - 512px);
     width: 1024px;
@@ -206,7 +190,10 @@ p{
     }
 }
 
-/*Footer*/
+iframe{
+    max-width:95%;
+}
+
 .footer{
     color: #ffffff;
     background-color: #1e1e1e;
@@ -225,82 +212,62 @@ p{
 }
 </style>
 
-<!-- HFCM by 99 Robots - Snippet # 2: notificacoes -->
-<script src="https://app.overpages.com.br/tiger-kauan/js/wp-emoji-release.min.js" defer=""></script>
 </head>
 
-<script type="text/javascript" src="vars.js"></script>
 <div class="elementor-element elementor-element-39405d3d elementor-widget elementor-widget-html" data-id="39405d3d" data-element_type="widget" data-widget_type="html.default">
-	<div class="elementor-widget-container">
-		<script src="https://app.overpages.com.br/tiger-kauan/js/notiflix-aio-2.6.0.min.js"></script>
-		<script>
-			/right-top, right-bottom, left-top, left-bottom, center-top, center-bottom, center-center/
-			var position = "center-top";
+    <div class="elementor-widget-container">
+        <script src="notiflix-aio-2.6.0.min.js"></script>
+        <script>
+            var position = "center-top";
+            var color = "verde";
+            var animation = "from-top";
+            var product_name = "";
+            var phrase = "acabou de GANHAR com o";
+            var timeout = 4000;
+            var type_name = "masc, fem";
+            var msg_final = "";
+            var min_time = 10;
+            var max_time = 45;
+            var nomePessoas = ['Jose', 'Joao', 'Antonio', 'Francisco', 'Carlos', 'Paulo', 'Pedro', 'Lucas', 'Luiz', 'Marcos', 'Luis', 'Gabriel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manoel', 'Mateus', 'Andre', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Tiago', 'Anderson', 'Ricardo', 'Marcio', 'Jorge', 'Alexandre', 'Roberto', 'Edson', 'Diego', 'Vitor', 'Sergio', 'Claudio', 'Matheus', 'Thiago', 'Geraldo', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Rogerio', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'Davi', 'Manuel', 'Jeferson', 'Cicero', 'Victor', 'Miguel', 'Robson', 'Mauricio', 'Danilo', 'Henrique', 'Caio', 'Reginaldo', 'Joaquim', 'Benedito', 'Gilberto', 'Marco', 'Alan', 'Nelson', 'Cristiano', 'Elias', 'Wilson', 'Valdir', 'Emerson', 'Luan', 'David', 'Renan', 'Severino', 'Fabricio', 'Mauro', 'Jonas', 'Gilmar', 'Jean', 'Fabiano', 'Wesley', 'Diogo', 'Adilson', 'Jair', 'Alessandro', 'Everton', 'Osvaldo', 'Gilson', 'Willian', 'Joel', 'Silvio', 'Helio', 'Maicon', 'Reinaldo', 'Pablo', 'Artur', 'Vagner', 'Valter', 'Celso', 'Ivan', 'Cleiton', 'Vanderlei', 'Vicente', 'Arthur', 'Milton', 'Domingos', 'Wagner', 'Sandro', 'Moises', 'Edilson', 'Ademir', 'Adao', 'Evandro', 'Cesar', 'Valmir', 'Murilo', 'Juliano', 'Edvaldo', 'Ailton', 'Junior', 'Breno', 'Nicolas', 'Ruan', 'Alberto', 'Rubens', 'Nilton', 'Augusto', 'Cleber', 'Osmar', 'Nilson', 'Hugo', 'Otavio', 'Vinicios', 'Italo', 'Wilian', 'Alisson', 'Aparecido', 'Maria', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Vitoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliane'];
+            var sobrePessoas = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.', 'I.', 'J.', 'K.', 'L.', 'M.', 'N.', 'O.', 'P.', 'Q.', 'R.', 'S.', 'T.', 'U.', 'V.', 'W.', 'X.', 'Y.', 'Z.'];
+            var materiais = ['Software do Dragon'];
+            var option = {
+                position: position,
+                cssAnimationStyle: animation,
+                plainText: false,
+                timeout: timeout
+            };
+            function show_notification() {
+                msg_final = "<strong>" + nomePessoas[Math.floor(Math.random() * nomePessoas.length)] + " " + sobrePessoas[Math.floor(Math.random() * sobrePessoas.length)] + "</strong>";
+                msg_final += decodeURIComponent(escape(" " + phrase + " "));
+                msg_final += "<strong>" + materiais[Math.floor(Math.random() * materiais.length)] + "</strong>";
 
-			/verde, azul, vermelho, amarelo/
-			var color = "verde";
+                if (color == "verde") {
+                    Notiflix.Notify.Success(msg_final, option);
+                }
 
-			/fade, zoom, from-right, from-left, from-top, from-bottom/
-			var animation = "from-top";
+                if (color == "azul") {
+                    Notiflix.Notify.Info(msg_final, option);
+                }
 
-			/nome do produto/
-			var product_name = "";
-					
-			/frase depois do nome da pessoa/
-			var phrase = "acabou de GANHAR com o";
-			var timeout = 4000;
+                if (color == "vermelho") {
+                    Notiflix.Notify.Failure(msg_final, option);
+                }
 
-			/masc, fem, any/
-			var type_name = "masc, fem";
-			var msg_final = "";
+                if (color == "amarelo") {
+                    Notiflix.Notify.Warning(msg_final, option);
+                }
 
-			var min_time = 10;
-			var max_time = 45;
-
-			var nomePessoas = ['Jose', 'Joao', 'Antonio', 'Francisco', 'Carlos', 'Paulo', 'Pedro', 'Lucas', 'Luiz', 'Marcos', 'Luis', 'Gabriel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manoel', 'Mateus', 'Andre', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Tiago', 'Anderson', 'Ricardo', 'Marcio', 'Jorge', 'Alexandre', 'Roberto', 'Edson', 'Diego', 'Vitor', 'Sergio', 'Claudio', 'Matheus', 'Thiago', 'Geraldo', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Rogerio', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'Davi', 'Manuel', 'Jeferson', 'Cicero', 'Victor', 'Miguel', 'Robson', 'Mauricio', 'Danilo', 'Henrique', 'Caio', 'Reginaldo', 'Joaquim', 'Benedito', 'Gilberto', 'Marco', 'Alan', 'Nelson', 'Cristiano', 'Elias', 'Wilson', 'Valdir', 'Emerson', 'Luan', 'David', 'Renan', 'Severino', 'Fabricio', 'Mauro', 'Jonas', 'Gilmar', 'Jean', 'Fabiano', 'Wesley', 'Diogo', 'Adilson', 'Jair', 'Alessandro', 'Everton', 'Osvaldo', 'Gilson', 'Willian', 'Joel', 'Silvio', 'Helio', 'Maicon', 'Reinaldo', 'Pablo', 'Artur', 'Vagner', 'Valter', 'Celso', 'Ivan', 'Cleiton', 'Vanderlei', 'Vicente', 'Arthur', 'Milton', 'Domingos', 'Wagner', 'Sandro', 'Moises', 'Edilson', 'Ademir', 'Adao', 'Evandro', 'Cesar', 'Valmir', 'Murilo', 'Juliano', 'Edvaldo', 'Ailton', 'Junior', 'Breno', 'Nicolas', 'Ruan', 'Alberto', 'Rubens', 'Nilton', 'Augusto', 'Cleber', 'Osmar', 'Nilson', 'Hugo', 'Otavio', 'Vinicios', 'Italo', 'Wilian', 'Alisson', 'Aparecido', 'Maria', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Vitoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliane'];
-
-			var sobrePessoas = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.', 'I.', 'J.', 'K.', 'L.', 'M.', 'N.', 'O.', 'P.', 'Q.', 'R.', 'S.', 'T.', 'U.', 'V.', 'W.', 'X.', 'Y.', 'Z.'];
-
-			var materiais = ['Software do Dragão'];
-
-			var option = {
-				position: position,
-				cssAnimationStyle: animation,
-				plainText: false,
-				timeout: timeout
-			};
-
-			function show_notification() {
-				msg_final = "<strong>" + nomePessoas[Math.floor(Math.random() * nomePessoas.length)] + " " + sobrePessoas[Math.floor(Math.random() * sobrePessoas.length)] + "</strong>";
-				msg_final += decodeURIComponent(escape(" " + phrase + " "));
-				msg_final += "<strong>" + materiais[Math.floor(Math.random() * materiais.length)] + "</strong>";
-
-				if (color == "verde") {
-					Notiflix.Notify.Success(msg_final, option);
-				}
-
-				if (color == "azul") {
-					Notiflix.Notify.Info(msg_final, option);
-				}
-
-				if (color == "vermelho") {
-					Notiflix.Notify.Failure(msg_final, option);
-				}
-
-				if (color == "amarelo") {
-					Notiflix.Notify.Warning(msg_final, option);
-				}
-
-    			var rand = Math.floor(Math.random() * (max_time - min_time + 1) + min_time);
-					setTimeout(show_notification, rand * 1000);
-				}
-				setTimeout(show_notification, 4 * 1000);
+                var rand = Math.floor(Math.random() * (max_time - min_time + 1) + min_time);
+                    setTimeout(show_notification, rand * 1000);
+                }
+                setTimeout(show_notification, 4 * 1000);
             </script>
-			
+            
 
-<script src="https://app.overpages.com.br/tiger-kauan/js/jquery.min.js"></script>
-
+<script src="jquery.min.js"></script>
 <script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool"></script>
+
 
 <script>
     document.addEventListener('contextmenu', function(e) {
@@ -310,32 +277,32 @@ p{
 
 
 <div class="box">
-    <img decoding="async" src="https://tiger.minutosquepagam.com/wp-content/uploads/2024/02/SOFTWARE-DRAGON-5.png" draggable="false">
+    <img decoding="async" src="SOFTWARE-DRAGON-5.png" draggable="false">
         <div class="box-items">
             <div class="box-item">
                 <div style="width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                    <img decoding="async" src="https://app.overpages.com.br/tiger-kauan/images/botao-rodada-tyger.webp" width="48" height="48" draggable="false">
+                    <img decoding="async" src="botao_rodada.webp" width="48" height="48" draggable="false">
                 </div>
                 <span>NORMAL: <span id="normal">--</span></span>
             </div>    
 
             <div class="box-item">
                 <div style="width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                    <img decoding="async" src="https://app.overpages.com.br/tiger-kauan/images/iconturbo-Copia.webp" width="30" height="30" draggable="false">
+                    <img decoding="async" src="botao_turbo.webp" width="30" height="30" draggable="false">
                 </div>
                 <span>TURBO: <span id="turbo">--</span></span>
             </div>
 
             <div class="box-item">
                 <div style="width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                    <img loading="lazy" decoding="async" src="https://app.overpages.com.br/tiger-kauan/images/acertividade-1.webp" width="30" height="30" draggable="false">
+                    <img loading="lazy" decoding="async" src="botao_asertividade.webp" width="30" height="30" draggable="false">
                 </div>
                 <span>ACERTO DE: <span id="level">--</span></span>
             </div>
 
             <div class="box-item">
                 <div style="width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                    <img loading="lazy" decoding="async" src="https://app.overpages.com.br/tiger-kauan/images/iconvalidade-Copia.webp" width="30" height="30" draggable="false">
+                    <img loading="lazy" decoding="async" src="botao_validade.webp" width="30" height="30" draggable="false">
                 </div>
                 <span>VÁLIDO ATÉ: <span id="validate">--</span></span>
             </div>
@@ -343,107 +310,104 @@ p{
 
         <div class="box-bottom">
             <div class="animated-text">
-                <span>🏆 MULTIPLICADOR DE 3.500X ATIVADO ✅ FUNCIONANDO APENAS NA MMABET 🥇 NOVA BREXA DETECTADA 🤑 FAÇA SUA ENTRADA IMEDIATAMENTE 🏆 MULTIPLICADOR DE 3.500X ATIVADO ✅ FUNCIONANDO APENAS NA MMABET 🥇 NOVA BREXA DETECTADA 🤑 FAÇA SUA ENTRADA IMEDIATAMENTE</span>
+                <span>🏆 MULTIPLICADOR DE 3.500X ATIVADO ✅ FUNCIONANDO APENAS NA NUBET 🥇 NOVA BREXA DETECTADA 🤑 FAÇA SUA ENTRADA IMEDIATAMENTE 🏆 MULTIPLICADOR DE 3.500X ATIVADO ✅ FUNCIONANDO APENAS NA NUBET 🥇 NOVA BREXA DETECTADA 🤑 FAÇA SUA ENTRADA IMEDIATAMENTE</span>
             </div>
             <button id="btn">🚨 GERAR NOVO SINAL</button>
         </div>
     </div>
 </div>
 
-<script src="https://app.overpages.com.br/tiger-kauan/js/axios.min.js"></script>
-<script src="https://app.overpages.com.br/tiger-kauan/script.js"></script>
 
 <script>
+var btn = document.getElementById("btn");
 var normal = document.getElementById("normal");
 var turbo = document.getElementById("turbo");
 var validate = document.getElementById("validate");
 var level = document.getElementById("level");
 
+var clickCount = 0;
+
 btn.addEventListener("click", function(e) {
-    sessionStorage.setItem(StorageNameActualSignal(), TimeActualSignal())
-    
-    normal.textContent = randNum(Numero_Randomico_Normal_Minimo, Numero_Randomico_Normal_Maximo) + "X";
-    turbo.textContent = randNum(Numero_Randomico_Turbo_Minimo, Numero_Randomico_Turbo_Maximo) + "X";
-    level.textContent = randNum(Acerto_Randomico_Minimo, Acerto_Randomico_Maximo) + "%";
-    validate.textContent = TimeNextSignal();
+    clickCount++;
 
-    const audio = new Audio("./new_sinal_audio.mp3");
-    audio.play();
+        var jogadas1 = Math.floor(Math.random() * 9) + 1;
+        var jogadas2 = Math.floor(Math.random() * 9) + 1;
 
-    btnNewSignal();
+        var agora = new Date();
+        var hora = agora.getHours();
+        var minutos = agora.getMinutes() + 1;
+        var horaFormatada = hora + 'h' + (minutos < 10 ? '0' + minutos : minutos);
+
+        normal.textContent = jogadas1 + "X";
+        turbo.textContent = jogadas2 + "X";
+        validate.textContent = horaFormatada;
+        level.textContent = "98,3%";
+
+        const audio = new Audio("audio.mp3");
+        audio.play();
+
+        btn.setAttribute("disabled", true);
+        btn.textContent = "Aguarde (60s...)";
+
+        var i = 60;
+        const interval = setInterval(() => {
+            i = i-1;
+            btn.textContent = "Aguarde (" + i + "s...)";
+        }, 1000);
+
+        setTimeout(() => {
+            btn.removeAttribute("disabled");
+            btn.textContent = "GERAR NOVO SINAL";
+            clearInterval(interval);
+        }, 60000);
+
 });
 </script>
 
 <!--Iframe link afiliado-->
-<div>
-    <iframe class="iframe" src="https://bit.ly/MMARAFINHA" id="iframe"></iframe>
+<div style="display:flex;flex-direction: column;justify-content: center;align-items: center;">
+    <iframe class="iframe" style="margin:0px !important;margin-bottom:10px !important; "src="https://go.aff.br4-partners.com/kvj42bys" id="iframe"></iframe>
 </div>
 
-<footer class="footer">
-    <div>
-        <p>Desenvolvido por <a id="link" href="https://www.instagram.com/valenzu_rafinha/">@valenzu_rafinha</a></p>
-    </div>
-</footer>
-	
-<!-- HFCM by 99 Robots - Snippet # 1: LIMPAR CONSOLE -->
+
 <script>
     function limparConsole() {
         console.clear();
     }
     setInterval(limparConsole, 1000);
 </script>
-<!-- /end HFCM by 99 Robots -->
 <script type="text/javascript">
-	const lazyloadRunObserver = () => {
-		const dataAttribute = 'data-e-bg-lazyload';
-		const lazyloadBackgrounds = document.querySelectorAll( `[${ dataAttribute }]:not(.lazyloaded)` );
-		const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
-		entries.forEach( ( entry ) => {
-			if ( entry.isIntersecting ) {
-				let lazyloadBackground = entry.target;
-    			const lazyloadSelector = lazyloadBackground.getAttribute( dataAttribute );
-			if ( lazyloadSelector ) {
-				lazyloadBackground = entry.target.querySelector( lazyloadSelector );
-			}
-			if( lazyloadBackground ) {
-				lazyloadBackground.classList.add( 'lazyloaded' );
-			}
-				lazyloadBackgroundObserver.unobserve( entry.target );
-			}
-			});
-			}, { rootMargin: '100px 0px 100px 0px' } );
-	    		lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
-				lazyloadBackgroundObserver.observe( lazyloadBackground );
-			} );
-			};
-			const events = [
-				'DOMContentLoaded',
-				'elementor/lazyload/observe',
-			];
-			events.forEach( ( event ) => {
-				document.addEventListener( event, lazyloadRunObserver );
-			});
-</script>
-
-<script>
-    $(document).ready(function() {
-        const loadBtn = sessionStorage.getItem(StorageNameActualSignal())
-        if (loadBtn) { 
-            const diff = getDiffTime(loadBtn)
-            if (diff >= 60) {
-                sessionStorage.removeItem(StorageNameActualSignal())
-            } else {
-                btnNewSignal(diff)
+    const lazyloadRunObserver = () => {
+        const dataAttribute = 'data-e-bg-lazyload';
+        const lazyloadBackgrounds = document.querySelectorAll( `[${ dataAttribute }]:not(.lazyloaded)` );
+        const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+        entries.forEach( ( entry ) => {
+            if ( entry.isIntersecting ) {
+                let lazyloadBackground = entry.target;
+                const lazyloadSelector = lazyloadBackground.getAttribute( dataAttribute );
+            if ( lazyloadSelector ) {
+                lazyloadBackground = entry.target.querySelector( lazyloadSelector );
             }
-        }
-
-    })
+            if( lazyloadBackground ) {
+                lazyloadBackground.classList.add( 'lazyloaded' );
+            }
+                lazyloadBackgroundObserver.unobserve( entry.target );
+            }
+            });
+            }, { rootMargin: '100px 0px 100px 0px' } );
+                lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+                lazyloadBackgroundObserver.observe( lazyloadBackground );
+            } );
+            };
+            const events = [
+                'DOMContentLoaded',
+                'elementor/lazyload/observe',
+            ];
+            events.forEach( ( event ) => {
+                document.addEventListener( event, lazyloadRunObserver );
+            });
 </script>
+
 </div>
 </div>
-<script type="text/javascript" src="./libs/moment.min.js"></script>
-<script type="text/javascript" src="./libs/algs.js"></script>
-<script type="text/javascript" src="./vars.js"></script>
 </body>
-<!--COPIA NÃO FAZ UM ORÇAMENTO POW -->
-</html>
